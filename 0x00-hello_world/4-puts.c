@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- *  *main-Serves as the entry point of a program
- *   *
- *    *Return:if no error return zero, otherwise return non zero value
- *     */
- 
+ * main - Entry point
+ * Description: print a string using followed by a new line
+ * Return :0
+ */
+
 int main(void)
+
 {
-    printf("with proper grammar, but the outcome is a piece of art,\n.");
-    return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
