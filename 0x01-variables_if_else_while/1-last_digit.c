@@ -10,23 +10,38 @@
 int main(void)
 
 {
-
-int n, s;
+int n;
 srand(time(0));
-n = rand() - RAND_MAX / 2;
-s = n % 10;
-if (s > 5)
+n = rand() - RAND_MAX /2;
+if (n % 10 >5)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, s);
+printf("Last digit of %i is %i and is greater than 5\n", n, n % 10;
 }
-if (num == 0)
-else if (s == 0)
+else if (n % 10 ==0)
 {
-printf("Last digit of %d is %d and is 0\n", n, s);
-}
-if (num < 6)
-else if (s < 6)
+printf("Last digit of %i is %i and is 0\n", n, n % 10);
+else
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, s);
+printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
 return (0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
