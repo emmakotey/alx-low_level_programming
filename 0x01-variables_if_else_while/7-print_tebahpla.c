@@ -1,18 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Prints reversed alphabet.
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Description: Prints the alphabet using ascii reverse
+ *
+ * Return: Always 0
  */
+
 int main(void)
 {
-	int i;
+	char letter;
 
-	for (i = 122; i > 96; i--)
+	letter = 'z';
+	while (letter != '`')
 	{
-		putchar(i);
+		putchar (letter);
+		letter--;
 	}
 	putchar('\n');
 	return (0);
-} 
+}
