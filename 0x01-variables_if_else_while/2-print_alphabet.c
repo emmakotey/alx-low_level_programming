@@ -1,19 +1,19 @@
-include <stdio.h>
+#include <stdio.h>
+
 /**
- * main - print if number is positive, zero or negative
+ * main - Prints the alphabet.
  *
- * Description: using the main function
- * this program prints 'programming is positive, zero, or negative 
- * return:0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char ch;
-for (ch - 'a' ; ch <= 'z' ; ch++)
-{
-	putchar(ch)
-}
-putchar('\n');
-return(0);
-}
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
+}

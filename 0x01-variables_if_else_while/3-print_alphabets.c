@@ -1,45 +1,19 @@
 #include <stdio.h>
 
 /**
-
- * main - Entry point
-
- *
-
- * Return: Always 0 (Success)
-
- */
-
+   * main - print alphabet in upper and lower
+   *
+   * Return: zero
+   */
 int main(void)
-
 {
+	char ch;
+	char CH;
 
-int num;
-
-num = 97;
-
-while (num <= 122)
-
-putchar(num);
-
-num++;
-
-int p;
-
-p = 97;
-
-while (p <= 122)
-
-{
-
-putchar(p);
-
-p++;
-
-}
-
-putchar('\n');
-
-return (0);
-
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (CH = 'A'; CH <= 'Z'; CH++)
+		putchar(CH);
+	putchar('\n');
+	return (0);
 }
