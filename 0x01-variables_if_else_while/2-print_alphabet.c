@@ -1,17 +1,44 @@
 #include <stdio.h>
+
 /**
- * main - lowercase alphabet
+
+ * main - Entry point
+
  *
- * Return: Always (Success)
- *
+
+ * Return: Always 0 (Success)
+
  */
+
 int main(void)
+
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
-	putchar(c)
+
+int num;
+
+num = 97;
+
+while (num <= 122)
+
+putchar(num);
+
+num++;
+
+int p;
+
+p = 97;
+
+while (p <= 122)
+
+{
+
+putchar(p);
+
+p++;
+
+}
+
 putchar('\n');
-return(0)
 
-
+return (0);
 
