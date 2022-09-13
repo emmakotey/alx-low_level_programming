@@ -1,19 +1,17 @@
-include "main.h"
+include “main.h”
 
 /**
- * print_alphabet -  prints the lowercase alphabet
- *
- * Return: void
- */
+* print_alphabet – function to print abc
+*
+* Return: 0
+*/
 
-void print_alphabet(void)
+Void print_alphabet(void)
 {
-	char c = 'a';
-	int i;
-
-	for (i = 0; i < 26; i++)
-	{
-		_putchar(c + i);
-	}
-	_putchar(10);
+Char c;
+For (c = ‘a’; c <= ‘z’; c++)
+{
+_putchar©;
+}
+_putchar(‘\n’);
 }
