@@ -1,7 +1,7 @@
 #ifndef HOLBERTON_H_INCLUDED
 #define HOLBERTON_H_INCLUDED
 
-Int _putchar(char);
+Int _putchar(char c);
 Void print_alphabet(void);
 Void print_alphabet_x10(void);
 Int _islower(int c);
