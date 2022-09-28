@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
- * factorial - This is a function to return 
- *the factor of n
+ * factorial - This is a function to return
+ * the factor of n
  *
  * @n: parameter
  *
@@ -23,6 +22,5 @@ int factorial(int n)
 		n = n * factorial(n - 1);
 		return (n);
 	}
-
 	return (0);
 }
