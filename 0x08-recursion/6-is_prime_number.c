@@ -6,7 +6,6 @@
  * Return: result 0 not prime 1 prime
  * is_prime_number - verifies that the number is prime
  * @n: verify number
- * Return: result 0 not prime 1 prime
  */
 int is_prime(int x, int y)
 {
