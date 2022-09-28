@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * is_prime - prime
- * @x: number
- * @y: number
- * Return: result 0 not prime 1 prime
- * is_prime_number - verifies that the number is prime
- * @n: verify number
+ * is_prime - A prime number
+ * @x: This is a number
+ * @y: This is another number
+ * Return: output the result 0 not prime 1 prime
  */
 int is_prime(int x, int y)
 {
@@ -16,6 +14,11 @@ int is_prime(int x, int y)
 	else
 		return (is_prime(x, y + 1));
 }
+/**
+ * is_prime_number - for prime number verification
+ * @n: to perform number verification
+ * Return: output result 0 not prime 1 prime
+ */
 int is_prime_number(int n)
 {
 	if (n <= 1)
