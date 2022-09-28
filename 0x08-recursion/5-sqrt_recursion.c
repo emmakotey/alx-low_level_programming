@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _sqrt - description
- * @x: number
- * @y: number
- * Return: sum the values
+ * _sqrt - This a description
+ * @x: A number
+ * @y: A number
+ * Return: Returns the sum of the values
  */
 int _sqrt(int x, int y)
 {
@@ -18,9 +18,9 @@ int _sqrt(int x, int y)
 		return (1 + _sqrt(sum, y + 2));
 }
 /**
- * _sqrt_recursion - natural square root
- * @n: radiating number
- * Return: result
+ * _sqrt_recursion - This is square root
+ * @n: This is a radiating number
+ * Return: Output result
  */
 int _sqrt_recursion(int n)
 {
