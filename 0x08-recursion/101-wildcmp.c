@@ -1,5 +1,4 @@
 #include "main.h"
-
 int strlen_no_wilds(char *str);
 void iterate_wild(char **wildstr);
 char *postfix_match(char *str, char *postfix);
@@ -27,7 +26,6 @@ int strlen_no_wilds(char *str)
 
 	return (len);
 }
-
 /**
  * iterate_wild - Iterate through a string located at a wildcard
  * until it points to a non-wildcard character.
@@ -43,7 +41,7 @@ void iterate_wild(char **wildstr)
 }
 
 /**
- * postfix_match - To check string str match with postfix if 
+ * postfix_match - To check string str match with postfix if
  * another string contains wildcards
  * @str: match up string.
  * @postfix: postfix.
