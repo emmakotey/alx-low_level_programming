@@ -71,7 +71,7 @@ char *postfix_match(char *str, char *postfix)
  * @s1: first string.
  * @s2: second string - (NB) can be wildcards.
  *
- * Return: To ouptut identical string - 1 else 0 
+ * Return: To ouptut identical string - 1 else 0
  */
 int wildcmp(char *s1, char *s2)
 {
