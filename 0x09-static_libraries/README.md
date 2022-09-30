@@ -1,1 +1,1 @@
-This file is not empty 
+ - Static libraries
