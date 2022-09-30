@@ -1,22 +1,15 @@
 #include "main.h"
-
+#include <string.h>
 /**
- * _strcmp - Compare two strings
- * @s1: string
- * @s2: string
- * Return: negative int if s1 < s2, 0 if matching, and positive int if s1 > s2
+ * _strcmp -> for copying
+ * @s1: parameter1
+ * @s2: parameter2
+ * Return: integer
  */
-
 int _strcmp(char *s1, char *s2)
 {
-	int i;
+	int result;
 
-	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
-	{
-		if (s1[i] != s2[i])
-		{
-			return (s1[i] - s2[i]);
-		}
-	}
-	return (0);
+	result = strcmp(s1, s2);
+	return (result);
 }
