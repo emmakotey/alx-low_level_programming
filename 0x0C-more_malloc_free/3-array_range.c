@@ -2,9 +2,8 @@
 #include <stdlib.h>
 /**
  * *array_range - create an array of integers
- * @main: minimum range of values stored
  * @max: maximum range of values stored and number of elements
- *
+ * @min: minimum range
  * Return: pointer to the new array
  */
 int *array_range(int min, int max)
