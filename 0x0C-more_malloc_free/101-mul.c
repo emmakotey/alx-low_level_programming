@@ -1,32 +1,30 @@
 #include "main.h"
-
+#include "stdio.h"
+#include "stdlib.h"
 /**
- * main - multi
- * @argc: n arguments
- * @argv: args
- * Return: int
- *
+ *  main - function is something to touch
+ *  @argc: n arguments that must be
+ *  @argv: args that found
+ *  Return: an integer
  */
 
 int main(int argc, char *argv[])
 {
-	char *final_prod, *next_prod;
-	int size, index, digit, zeroes = 0;
-
-	if (argc != 3)
+unsigned long nul;
+int i, j;
+	if (argc  != 3)
+	{ printf("Error\n");
+	exit(98); }
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
-		exit(98);
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] > 57 || argv[i][j] < 46)
+			{ printf("Error\n");
+			exit(98); }
+		}
 	}
-
-	if (*(argv[1]) == '0')
-		argv[1] = iterate_zeroes(argv[1]);
-	if (*(argv[2]) == '0')
-		argv[2] = iterate_zeroes(argv[2]);
-	if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
-	{
-		printf("0\n");
-		return (0);
-	}
+	nul = atol(argv[1]) * atol(argv[2]);
+	printf("%lu\n", nul);
 return (0);
 }
