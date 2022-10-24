@@ -77,6 +77,7 @@ size_t free_listint_safe(listint_t **h)
 			*h = tmp;
 		}
 	}
+	
 	else
 	{
 		for (index = 0; index < nodes; index++)
