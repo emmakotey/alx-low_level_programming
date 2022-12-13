@@ -1,2 +1,1 @@
- read me file:wq
- new update
+0x18. C - Dynamic libraries
